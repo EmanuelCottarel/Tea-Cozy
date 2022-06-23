@@ -1,0 +1,132 @@
+html{
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.9;
+   
+}
+
+
+body{
+    background-color: black;
+    color:#fff5ee90;
+    box-sizing: border-box;
+     width: 100%;
+     margin: 0;
+     
+}
+
+
+header{
+    width:100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid #fff5ee90;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+header img{
+    height: 50px;
+    margin-left: 10px;
+   
+}
+
+header li{
+    display: inline-flex;
+    margin-right: 10px;
+    
+
+}
+
+a{
+    color:#fff5ee90;
+    text-decoration: underline;
+}
+
+.jumbotron{
+    width: 1200px;
+    height: 700px;
+    background-image: url("./images/img-mission-background.webp");
+   margin: auto;
+   display: flex;
+
+   align-items: center;
+   text-align: center;
+    
+ 
+}
+
+.jumbotron__title{
+    background-color: black;
+    width:100%;
+    line-height: 0.5;
+}
+
+.products{
+    width: 1000px;
+    text-align: center;
+    margin: 80px auto;
+   
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.card{
+    margin: 0 15px;
+}
+.card img{
+    width: 300px;
+    height: 200px;
+}
+
+
+.locations{
+    width: 1200px;
+    height: 600px;
+    background-image: url("./images/img-locations-background.webp");
+    margin: auto;
+    
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+    }
+
+
+
+.locations__cards{
+    display: flex;
+    
+    
+}
+
+.locations__cards--card{
+    width:300px;
+    height: 300px;
+    margin: 0 40px;
+    background-color: black;
+    
+    text-align: center;
+}
+
+.locations__cards--card p{
+    line-height: 2.5;
+}
+
+.contact{
+    text-align: center;
+}
+
+.copyright{
+    margin-left: 20px;
+}
